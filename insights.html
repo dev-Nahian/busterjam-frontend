@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights</title>
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" type="image/png" href="/" />
+
+    <!-- ==== Plugins CSS Links ==== -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/helper.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.51.0/apexcharts.min.css" integrity="sha512-n+A0Xug6+j9/fCBVPoCihITLoICIB2FTqjESx+kwYdF5bzpblXz11zaILuLYmN3yk2WyMTw53sah9tTiojgySg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ==== Custom CSS Links ==== -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- preloader start  -->
+    <div class="preloader">
+        <img src="./assets/images/tube-spinner.svg" alt="">
+       </div>
+      <!-- preloader end  -->
+    <!-- start header  -->
+    <header>
+        <div class="container position-relative">
+          <div class="custom--row">
+            <!-- logo  -->
+            <a href="index.html" class="logo">
+              <img src="./assets/images/logo-yellow.svg" alt="logo" />
+            </a>
+            <!-- header--right--wrapper -->
+            <div class="header--right--wrapper">
+              <!-- menu  -->
+              <ul class="menu">
+                <li>
+                  <a href="insert.html">Insert auction</a>
+                </li>
+                <li>
+                  <a href="index.html">Live auction</a>
+                </li>
+                <li>
+                  <a href="purchased-auction.html">Purchased auction</a>
+                </li>
+                <li>
+                  <a href="archive.html">Archive</a>
+                </li>
+                <li>
+                  <a href="insights.html" class="active">Insights</a>
+                </li>
+              </ul>
+              <!-- header btn  -->
+              <a href="login.html" class="button header--btn">Login/SIgn up</a>
+            </div>
+            <!-- hamburger menu  -->
+            <div class="hamburger d-none">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- end header  -->
+
+
+    <main>
+        <section class="nr--insights--wrapper">
+            <div class="container">
+                <div class="nr--insights--header--main">
+                    <div class="nr--insights--header--inner">
+                        <ul>
+                            <li>
+                                <a href="#">Archive auction RM</a>
+                            </li>
+                            <li>
+                                <a href="#">Purchased auction RM</a>
+                            </li>
+                            <li>
+                                <a href="#">Canceled</a>
+                            </li>
+                            <li>
+                                <a href="#">Auction insights</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nr--insights--header">
+                        <h3>Insights</h3>
+                    </div>
+                </div>
+
+                <div class="nr--insights--chart--main">
+                    
+                    <div id="chartInsights"></div>
+
+                    <div class="indicators">
+                        <div class="nr--indicator--right">
+                            <div class="inicator--blue"></div>
+                            <span>Archived Auctions Retail Margins</span>
+                        </div>
+                        <div class="nr--indicator--left">
+                            <div class="inicator--orange"></div>
+                            <span>Archived Auctions Retail Margins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer start  -->
+    <footer class="footer--wrapper">
+            <div class="container">
+                <div class="footer--wrapper--main">
+                    <div class="footer--wrapper--inner">
+                        <div class="footer--logo">
+                            <img src="./assets/images/footerLogo.png" alt="not found">
+                        </div>
+                        <div class="footer--menus">
+                            <ul>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <section class="footer--header">
+            <div class="footer--header--main">
+                <h4>Ⓒ 2024 All rights reserved. This is Your Company</h4>
+            </div>
+    </section>
+    <!-- footer end  -->
+    
+
+
+
+    <!-- ==== All Js Links ==== -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.51.0/apexcharts.min.js" integrity="sha512-rgvuw7+rpm6cEJOUFmmzb2UWUVWg2VkIbmw6vMoWjbX/7CsyPgiMvrXhzZJbS0Ow1Bq/3illaZaqQej1n3AA7Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

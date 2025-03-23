@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 maximum-scale=1"
+    />
+    <title>Purchased Auction</title>
+    <!-- ==== Favicon ==== -->
+    <link rel="icon" type="image/png" href="/" />
+
+    <!-- ==== Plugins CSS Links ==== -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/helper.css" />
+    <!-- ==== Custom CSS Links ==== -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- preloader start  -->
+    <div class="preloader">
+      <img src="./assets/images/tube-spinner.svg" alt="">
+     </div>
+    <!-- preloader end  -->
+    <!-- start header  -->
+    <header>
+      <div class="container">
+        <div class="custom--row">
+          <!-- logo  -->
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo-yellow.svg" alt="logo" />
+          </a>
+          <!-- header--right--wrapper -->
+          <div class="header--right--wrapper">
+            <!-- menu  -->
+            <ul class="menu">
+              <li>
+                <a href="insert.html">Insert auction</a>
+              </li>
+              <li>
+                <a href="index.html">Live auction</a>
+              </li>
+              <li>
+                <a href="purchased-auction.html" class="active">Purchased auction</a>
+              </li>
+              <li>
+                <a href="archive.html">Archive</a>
+              </li>
+              <li>
+                <a href="insights.html">Insights</a>
+              </li>
+            </ul>
+            <!-- header btn  -->
+            <a href="login.html" class="button header--btn">Login/SIgn up</a>
+          </div>
+          <!-- hamburger menu  -->
+          <div class="hamburger d-none">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <main>
+      <!-- hero area start  -->
+      <section class="hero--area purchased--auction--hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xxl-7 col-lg-6">
+              <!-- hero--details  -->
+              <div class="hero--details">
+                <h1>Your Winning Bid: Celebrating Successful Purchases!</h1>
+                <p>Explore the Unique Finds You’ve Brought Home!</p>
+                <!-- category box  -->
+                <div class="category--box">
+                  <div class="category--wrapper">
+                    <ul>
+                      <li>Exclusive Items</li>
+                      <li>One of a Kind</li>
+                      <li>Collector’s Choice</li>
+                      <li>Get in the Game!</li>
+                      <li>Join the Excitement</li>
+                      <li>Final Call</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-5 col-lg-6">
+              <!-- hero img  -->
+              <div class="hero--img">
+                <img src="./assets/images/purchased-hero.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero area end  -->
+      <!-- live auction area start  -->
+      <section class="live--auction--area purchased--auction">
+        <div class="container">
+          <!-- section title  -->
+          <div class="section--title mb_50">
+            <h3>Purchased Auction</h3>
+            <p>Get a quick glance of your purchased auction right now</p>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 col-md-6 mt_20">
+                <div class="auction--card">
+                  <!-- category -->
+                  <div class="category">
+                    Office Furniture
+                  </div>
+                  <!-- auction--item  -->
+                  <div class="auction--item">
+                    <img src="./assets/images/product.png" alt="" />
+                    <!-- item--details  -->
+                    <div class="item--details">
+                      <h3>Item Details</h3>
+                      <h4>Your Item details goes here</h4>
+                      <p>Auction Id: #21345</p>
+                    </div>
+                  </div>
+                  <!-- bid--fees -->
+                  <ul class="bid--fees info--row">
+                    <li>
+                      <p>Current Bid:</p>
+                      <p>$500</p>
+                    </li>
+                    <li>
+                      <p>Fees:</p>
+                      <p>$100</p>
+                    </li>
+                  </ul>
+                  <!-- value  -->
+                  <ul class="value info--row">
+                    <li class="total-cost">
+                      <p>Total Cost:</p>
+                      <p>$1500</p>
+                    </li>
+                    <li>
+                      <p>Retail value:</p>
+                      <p>$2500</p>
+                    </li>
+                    <li>
+                      <p>Est. Sales:</p>
+                      <p>$2000</p>
+                    </li>
+                  </ul>
+                  <!-- retail value  -->
+                  <div class="retail--value value--box">
+                    <div>
+                      <p>Retail value margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">66.67%</div>
+                  </div>
+                  <!-- est sales  -->
+                  <div class="est--sales value--box">
+                    <div>
+                      <p>Est. Sales margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="button disabled">Open</a>
+                    <a href="manifest.html" class="button edit--btn">Add Manifest</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 mt_20">
+                <div class="auction--card">
+                  <!-- category -->
+                  <div class="category">
+                    Office Furniture
+                  </div>
+                  <!-- auction--item  -->
+                  <div class="auction--item">
+                    <img src="./assets/images/product.png" alt="" />
+                    <!-- item--details  -->
+                    <div class="item--details">
+                      <h3>Item Details</h3>
+                      <h4>Your Item details goes here</h4>
+                      <p>Auction Id: #21345</p>
+                    </div>
+                  </div>
+                  <!-- bid--fees -->
+                  <ul class="bid--fees info--row">
+                    <li>
+                      <p>Current Bid:</p>
+                      <p>$500</p>
+                    </li>
+                    <li>
+                      <p>Fees:</p>
+                      <p>$100</p>
+                    </li>
+                  </ul>
+                  <!-- value  -->
+                  <ul class="value info--row">
+                    <li class="total-cost">
+                      <p>Total Cost:</p>
+                      <p>$1500</p>
+                    </li>
+                    <li>
+                      <p>Retail value:</p>
+                      <p>$2500</p>
+                    </li>
+                    <li>
+                      <p>Est. Sales:</p>
+                      <p>$2000</p>
+                    </li>
+                  </ul>
+                  <!-- retail value  -->
+                  <div class="retail--value value--box">
+                    <div>
+                      <p>Retail value margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">66.67%</div>
+                  </div>
+                  <!-- est sales  -->
+                  <div class="est--sales value--box">
+                    <div>
+                      <p>Est. Sales margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="button disabled">Open</a>
+                    <a href="manifest.html" class="button edit--btn">Add Manifest</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 mt_20">
+                <div class="auction--card">
+                  <!-- category -->
+                  <div class="category">
+                    Office Furniture
+                  </div>
+                  <!-- auction--item  -->
+                  <div class="auction--item">
+                    <img src="./assets/images/product.png" alt="" />
+                    <!-- item--details  -->
+                    <div class="item--details">
+                      <h3>Item Details</h3>
+                      <h4>Your Item details goes here</h4>
+                      <p>Auction Id: #21345</p>
+                    </div>
+                  </div>
+                  <!-- bid--fees -->
+                  <ul class="bid--fees info--row">
+                    <li>
+                      <p>Current Bid:</p>
+                      <p>$500</p>
+                    </li>
+                    <li>
+                      <p>Fees:</p>
+                      <p>$100</p>
+                    </li>
+                  </ul>
+                  <!-- value  -->
+                  <ul class="value info--row">
+                    <li class="total-cost">
+                      <p>Total Cost:</p>
+                      <p>$1500</p>
+                    </li>
+                    <li>
+                      <p>Retail value:</p>
+                      <p>$2500</p>
+                    </li>
+                    <li>
+                      <p>Est. Sales:</p>
+                      <p>$2000</p>
+                    </li>
+                  </ul>
+                  <!-- retail value  -->
+                  <div class="retail--value value--box">
+                    <div>
+                      <p>Retail value margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">66.67%</div>
+                  </div>
+                  <!-- est sales  -->
+                  <div class="est--sales value--box">
+                    <div>
+                      <p>Est. Sales margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="button disabled">Open</a>
+                    <a href="manifest.html" class="button edit--btn">Add Manifest</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 mt_20">
+                <div class="auction--card">
+                  <!-- category -->
+                  <div class="category">
+                    Office Furniture
+                  </div>
+                  <!-- auction--item  -->
+                  <div class="auction--item">
+                    <img src="./assets/images/product.png" alt="" />
+                    <!-- item--details  -->
+                    <div class="item--details">
+                      <h3>Item Details</h3>
+                      <h4>Your Item details goes here</h4>
+                      <p>Auction Id: #21345</p>
+                    </div>
+                  </div>
+                  <!-- bid--fees -->
+                  <ul class="bid--fees info--row">
+                    <li>
+                      <p>Current Bid:</p>
+                      <p>$500</p>
+                    </li>
+                    <li>
+                      <p>Fees:</p>
+                      <p>$100</p>
+                    </li>
+                  </ul>
+                  <!-- value  -->
+                  <ul class="value info--row">
+                    <li class="total-cost">
+                      <p>Total Cost:</p>
+                      <p>$1500</p>
+                    </li>
+                    <li>
+                      <p>Retail value:</p>
+                      <p>$2500</p>
+                    </li>
+                    <li>
+                      <p>Est. Sales:</p>
+                      <p>$2000</p>
+                    </li>
+                  </ul>
+                  <!-- retail value  -->
+                  <div class="retail--value value--box">
+                    <div>
+                      <p>Retail value margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">66.67%</div>
+                  </div>
+                  <!-- est sales  -->
+                  <div class="est--sales value--box">
+                    <div>
+                      <p>Est. Sales margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="button disabled">Open</a>
+                    <a href="manifest.html" class="button edit--btn">Add Manifest</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 mt_20">
+                <div class="auction--card">
+                  <!-- category -->
+                  <div class="category">
+                    Office Furniture
+                  </div>
+                  <!-- auction--item  -->
+                  <div class="auction--item">
+                    <img src="./assets/images/product.png" alt="" />
+                    <!-- item--details  -->
+                    <div class="item--details">
+                      <h3>Item Details</h3>
+                      <h4>Your Item details goes here</h4>
+                      <p>Auction Id: #21345</p>
+                    </div>
+                  </div>
+                  <!-- bid--fees -->
+                  <ul class="bid--fees info--row">
+                    <li>
+                      <p>Current Bid:</p>
+                      <p>$500</p>
+                    </li>
+                    <li>
+                      <p>Fees:</p>
+                      <p>$100</p>
+                    </li>
+                  </ul>
+                  <!-- value  -->
+                  <ul class="value info--row">
+                    <li class="total-cost">
+                      <p>Total Cost:</p>
+                      <p>$1500</p>
+                    </li>
+                    <li>
+                      <p>Retail value:</p>
+                      <p>$2500</p>
+                    </li>
+                    <li>
+                      <p>Est. Sales:</p>
+                      <p>$2000</p>
+                    </li>
+                  </ul>
+                  <!-- retail value  -->
+                  <div class="retail--value value--box">
+                    <div>
+                      <p>Retail value margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">66.67%</div>
+                  </div>
+                  <!-- est sales  -->
+                  <div class="est--sales value--box">
+                    <div>
+                      <p>Est. Sales margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="button disabled">Open</a>
+                    <a href="manifest.html" class="button edit--btn">Add Manifest</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 mt_20">
+                <div class="auction--card">
+                  <!-- category -->
+                  <div class="category">
+                    Office Furniture
+                  </div>
+                  <!-- auction--item  -->
+                  <div class="auction--item">
+                    <img src="./assets/images/product.png" alt="" />
+                    <!-- item--details  -->
+                    <div class="item--details">
+                      <h3>Item Details</h3>
+                      <h4>Your Item details goes here</h4>
+                      <p>Auction Id: #21345</p>
+                    </div>
+                  </div>
+                  <!-- bid--fees -->
+                  <ul class="bid--fees info--row">
+                    <li>
+                      <p>Current Bid:</p>
+                      <p>$500</p>
+                    </li>
+                    <li>
+                      <p>Fees:</p>
+                      <p>$100</p>
+                    </li>
+                  </ul>
+                  <!-- value  -->
+                  <ul class="value info--row">
+                    <li class="total-cost">
+                      <p>Total Cost:</p>
+                      <p>$1500</p>
+                    </li>
+                    <li>
+                      <p>Retail value:</p>
+                      <p>$2500</p>
+                    </li>
+                    <li>
+                      <p>Est. Sales:</p>
+                      <p>$2000</p>
+                    </li>
+                  </ul>
+                  <!-- retail value  -->
+                  <div class="retail--value value--box">
+                    <div>
+                      <p>Retail value margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">66.67%</div>
+                  </div>
+                  <!-- est sales  -->
+                  <div class="est--sales value--box">
+                    <div>
+                      <p>Est. Sales margin</p>
+                      <span>$2500 - $1500 = <b>$1000</b></span>
+                    </div>
+                    <!-- percent  -->
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="button disabled">Open</a>
+                    <a href="manifest.html" class="button edit--btn">Add Manifest</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- live auction area end  -->
+    </main>
+
+    <!-- footer start  -->
+        <!-- footer start  -->
+    <footer class="footer--wrapper">
+      <div class="container">
+        <div class="footer--wrapper--main">
+          <div class="footer--wrapper--inner">
+            <div class="footer--logo">
+              <img src="./assets/images/logo-yellow.svg" alt="not found">
+            </div>
+            <div class="footer--menus">
+              <ul>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="footer--header">
+      <div class="footer--header--main">
+        <h4>Ⓒ 2024 All rights reserved. This is Your Company</h4>
+      </div>
+    </section>
+    <!-- footer end  -->
+    <!-- footer end  -->
+
+    <!-- ==== All Js Links ==== -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
